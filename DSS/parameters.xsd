@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="parameters" targetNamespace="http://tempuri.org/parameters.xsd" xmlns:mstns="http://tempuri.org/parameters.xsd" xmlns="http://tempuri.org/parameters.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="DSSConnectionString" ConnectionStringObject="" IsAppSettingsProperty="True" Modifier="Assembly" Name="DSSConnectionString (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.MathematicaUI.My.MySettings.GlobalReference.Default.DSSConnectionString" Provider="System.Data.SqlClient">
+          </Connection>
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="parametersTableAdapter" GeneratorDataComponentClassName="parametersTableAdapter" Name="parameters" UserDataComponentName="parametersTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="DSSConnectionString (MySettings)" DbObjectName="NSSforTWJ.dbo.parameters" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="False" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="False" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="True">
+                    <CommandText>SELECT parKernelPath FROM dbo.parameters</CommandText>
+                    <Parameters>
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="parKernelPath" DataSetColumn="parKernelPath" />
+            </Mappings>
+            <Sources>
+            </Sources>
+          </TableAdapter>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="parameters" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="parameters" msprop:Generator_DataSetName="parameters">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="parameters" msprop:Generator_UserTableName="parameters" msprop:Generator_RowDeletedName="parametersRowDeleted" msprop:Generator_RowChangedName="parametersRowChanged" msprop:Generator_RowClassName="parametersRow" msprop:Generator_RowChangingName="parametersRowChanging" msprop:Generator_RowEvArgName="parametersRowChangeEvent" msprop:Generator_RowEvHandlerName="parametersRowChangeEventHandler" msprop:Generator_TableClassName="parametersDataTable" msprop:Generator_TableVarName="tableparameters" msprop:Generator_RowDeletingName="parametersRowDeleting" msprop:Generator_TablePropName="_parameters">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="parKernelPath" msprop:Generator_UserColumnName="parKernelPath" msprop:Generator_ColumnVarNameInTable="columnparKernelPath" msprop:Generator_ColumnPropNameInRow="parKernelPath" msprop:Generator_ColumnPropNameInTable="parKernelPathColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

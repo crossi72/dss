@@ -1,0 +1,17 @@
+C:\Lavoro\mathematica\DSS\soluzione\DSS\bin\Debug\DSS.exe.config
+C:\Lavoro\mathematica\DSS\soluzione\DSS\bin\Debug\DSS.exe
+C:\Lavoro\mathematica\DSS\soluzione\DSS\bin\Debug\DSS.pdb
+C:\Lavoro\mathematica\DSS\soluzione\DSS\bin\Debug\DSS.xml
+C:\Lavoro\mathematica\DSS\soluzione\DSS\bin\Debug\MathWrapper.dll
+C:\Lavoro\mathematica\DSS\soluzione\DSS\bin\Debug\Wolfram.NETLink.dll
+C:\Lavoro\mathematica\DSS\soluzione\DSS\bin\Debug\MathWrapper.pdb
+C:\Lavoro\mathematica\DSS\soluzione\DSS\bin\Debug\MathWrapper.xml
+C:\Lavoro\mathematica\DSS\soluzione\DSS\obj\Debug\DSS.vbprojResolveAssemblyReference.cache
+C:\Lavoro\mathematica\DSS\soluzione\DSS\obj\Debug\DSS.frmScenarioSelection.resources
+C:\Lavoro\mathematica\DSS\soluzione\DSS\obj\Debug\DSS.frmNegotiation.resources
+C:\Lavoro\mathematica\DSS\soluzione\DSS\obj\Debug\DSS.frmParameters.resources
+C:\Lavoro\mathematica\DSS\soluzione\DSS\obj\Debug\DSS.Resources.resources
+C:\Lavoro\mathematica\DSS\soluzione\DSS\obj\Debug\DSS.vbproj.GenerateResource.Cache
+C:\Lavoro\mathematica\DSS\soluzione\DSS\obj\Debug\DSS.exe
+C:\Lavoro\mathematica\DSS\soluzione\DSS\obj\Debug\DSS.xml
+C:\Lavoro\mathematica\DSS\soluzione\DSS\obj\Debug\DSS.pdb
